@@ -1,0 +1,46 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #7950f2;
+    color: white;
+    font-size: 30px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ced4da;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    color: blue;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 10px;
+}
+
+.input {
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+}
+
+.submit {
+    border-radius: 25px;
+    width: 90px;
+    height: 30px;
+}
